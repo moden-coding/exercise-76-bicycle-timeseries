@@ -63,6 +63,10 @@ def bicycle_timeseries():
     pass
 
 def main():
-    bicycle_timeseries()
+    df = bicycle_timeseries()
+    print(df.shape)
+    print(df.head())
+
+
 if __name__ == "__main__":
     main()
